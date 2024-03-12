@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet", href="assets/style.css">
+    <title>Forms</title>
+</head>
+<body>
+    <div class="formulario">
+    <form>
+        <div class="name">
+            <label for="fname">Primeiro Nome</label><br>
+            <input type="text" class="name"><br>
+            <label for="lname">Sobrenome</label><br>
+            <input type="text" class="name">
+        </div>
+        <div class="gender">
+            <p>Gênero</p>
+            <input type="radio" name="gender" value="M">
+            <label for="gender" class="gender">H</label><br>
+            <input type="radio" name="gender" value="F">
+            <label for="gender" class="gender">M</label><br>
+            <input type="radio" name="gender" value="Outro">
+            <label for="gender" class="gender">Outro</label><br>
+        </div>
+        <div class="color">
+            <p>Cores favoritas</p>
+            <input type="checkbox" name="gender" value="vermelho">
+            <label for="color" class="color">Vermelho</label><br>
+            <input type="checkbox" name="gender" value="azul">
+            <label for="color" class="color">Azul</label><br>
+            <input type="checkbox" name="gender" value="laranja">
+            <label for="color" class="color">Laranja</label><br>
+            <input type="checkbox" name="gender" value="amarelo">
+            <label for="color" class="color">Amarelo</label><br>
+            <input type="checkbox" name="gender" value="cinza">
+            <label for="color" class="color">Cinza</label><br>
+            <input type="checkbox" name="gender" value="Preto">
+            <label for="color" class="color">Preto</label><br>
+        </div><br>
+        <div>
+            <label for="phone">Telefone:</label>
+  <input type="tel" id="phone" name="phone" placeholder="(00)12345-6789"
+  pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br>
+        </div><br>
+        <input type="submit" value="Submit">
+    </form>
+</div>
+</body>
+</html>
